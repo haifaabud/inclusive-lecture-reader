@@ -4,7 +4,7 @@ AI-powered accessibility tool that converts classroom board and slide content in
 
 
 
-# Inclusive Lecture Screen Reader
+
 
 ## Overview
 An AI-powered accessibility tool that converts classroom board and slide content into speech for visually impaired students using OCR and text-to-speech.
@@ -20,16 +20,24 @@ This project aims to improve accessibility and inclusive education by converting
 
 ## Basic Architecture
 
-Camera,
-
-OCR,
-
-AI Processing,
-
-Text-to-Speech.
-
+Camera
+↓
+OCR
+↓
+AI Processing
+↓
+Text-to-Speech
+↓
 Audio Output
 
+## Project Structure
+     Folder    Purpose 
+
+ backend : OCR logic, AI processing, and speech pipeline 
+ frontend: User interface components 
+docs : Documentation and architecture notes 
+ tests: OCR testing and debugging results 
+ assets:  Screenshots and demo files 
 
 
   ## Technologies
@@ -40,6 +48,14 @@ Audio Output
 - Git/GitHub
 
 
+## Current Goals
+- Set up project architecture
+- Implement OCR pipeline
+- Test webcam input
+- Integrate text-to-speech
+- Document development progress
+
 
 ## Status
-Project setup phase.
+
+Currently in early development and system setup phase.
